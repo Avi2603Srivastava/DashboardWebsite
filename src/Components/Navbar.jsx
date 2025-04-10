@@ -5,7 +5,7 @@ import { BsSun, BsClockHistory, BsBell, BsGrid3X3Gap } from "react-icons/bs";
 
 const Navbar = () => {
   return (
-    <nav className="flex items-center justify-between bg-white p-3 shadow-md">
+    <nav className="flex items-center justify-between bg-white p-3 shadow-md nav">
       <div className="flex items-center gap-2 flex-1">
         <button className="p-2 rounded-lg hover:bg-gray-200">
           <FiMenu size={18} />
@@ -28,13 +28,13 @@ const Navbar = () => {
         <button className="p-2 rounded-lg hover:bg-gray-200">
           <BsSun size={18} />
         </button>
-        <button className="p-2 rounded-lg hover:bg-gray-200">
+        <button className="p-2 rounded-lg hover:bg-gray-200 clock">
           <BsClockHistory size={18} />
         </button>
-        <button className="p-2 rounded-lg hover:bg-gray-200">
+        <button className="p-2 rounded-lg hover:bg-gray-200 bell">
           <BsBell size={18} />
         </button>
-        <button className="p-2 rounded-lg hover:bg-gray-200">
+        <button className="p-2 rounded-lg hover:bg-gray-200 grid">
           <BsGrid3X3Gap size={18} />
         </button>
       </div>
