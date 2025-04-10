@@ -36,7 +36,7 @@ export default function RightSide() {
               <h3 className="text-gray-500 uppercase text-sm font-semibold mb-3">
                 Activities
               </h3>
-              <div className="border-0 border-gray-300 pl-4 space-y-3">
+              <div className="border-gray-300 space-y-3">
                 <ActivityItem
                   avatar="https://randomuser.me/api/portraits/women/1.jpg"
                   title="Changed the style."
