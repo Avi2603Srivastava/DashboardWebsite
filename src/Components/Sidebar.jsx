@@ -20,7 +20,7 @@ const Sidebar = () => {
   };
 
   return (
-    <div className="w-15 bg-white min-h-screen shadow-lg p-4">
+    <div className="w-15 bg-white min-h-screen shadow-lg p-4 sidebar">
       <div className="flex items-center space-x-3 pb-4 border-b">
         <img
           src="https://i.pravatar.cc/100"
@@ -37,11 +37,11 @@ const Sidebar = () => {
             Recently
           </span>
         </div>
-        <ul className="mt-2 space-y-1">
-          <li className="p-2 hover:bg-gray-100 rounded cursor-pointer">
-            • Overview
+        <ul className="mt-2 space-y-1 md:space-y-1 lg:space-y-2">  
+          <li className="hover:bg-gray-100 rounded cursor-pointer">
+          • Overview
           </li>
-          <li className="p-2 hover:bg-gray-100 rounded cursor-pointer">
+          <li className="hover:bg-gray-100 rounded cursor-pointer">
             • Projects
           </li>
         </ul>
