@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function RightSide() {
   return (
-    <div className="w-72 p-4 bg-white border-r border-gray-200">
+    <div className="w-72 p-4 bg-white border-r border-gray-200 rightside">
         <div>
               <h3 className="text-gray-500 uppercase text-sm font-semibold mb-3">
                 Notifications
